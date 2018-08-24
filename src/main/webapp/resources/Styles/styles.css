@@ -1,0 +1,122 @@
+@charset "UTF-8";
+html,body{
+	width: 100%;
+	height: 100%;
+	font-family: Roboto;
+	font-size: 14px;
+}
+
+/*begin homepage*/
+#header-homepage{
+	font-size: 17px;
+}
+.tab-menu{
+	padding-top: 15px;
+}
+#body-homepage{
+	font-size: 17px;
+}
+#footer-homepage{
+	padding-top: 20px;
+	margin-top:20px;
+	margin-left:6px;
+	margin-right:5px;
+	font-size:20px;
+	background-color: silver;
+	border: 2px solid #CCC;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.partitioning-frame{
+	margin-top: 20px;
+	background-color: CCCCCC;
+	border: 2px solid #CCC;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.affix {
+    top: 0;
+    z-index: 9999 !important;
+ }
+
+
+#none-navbar{
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.navbar-center{
+	margin-left: 10% !important;
+}
+.active > a{
+	color: #0167ff !important;
+	background: none !important;
+	font-weight: bold;
+}
+.open > a{
+	background-color: #0167ff !important;
+	background: none !important;
+	font-weight: bold;
+}
+.dropdown-menu{
+	background-color: black !important;
+}
+.dropdown-menu a{
+	color: white !important;
+}
+.event-header{
+	text-align: center;
+	margin-top: 216px;
+	color: red;
+}
+
+@media (max-width: 575px) { 
+	.navbar-center{
+		margin-left: 0 !important;
+	} 
+}
+@media (min-width: 576px) and (max-width: 767px) { 
+	.navbar-center{
+		margin-left: 0 !important;
+	} 
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-center{
+		margin-left: 8% !important;
+	} 
+}
+@media (min-width: 992px) and (max-width: 1199px) { }
+@media (max-width: 1200px) { }
+/*end homepage*/
+
+/*begin thuocdiet*/
+.product-card{
+	text-align: center;
+	margin-top: 22px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.details-product{
+	font-size: 20px;
+	color: red;
+}
+/*end thuocdiet*/
+
+/*begin thongtinlienhe*/
+.title-card-contact{
+	background-color: #5bc0de;
+	text-align: center;
+	color: white;
+}
+.frame-contact{
+	margin-top: 30px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+/*end thongtinlienhe*/
+
